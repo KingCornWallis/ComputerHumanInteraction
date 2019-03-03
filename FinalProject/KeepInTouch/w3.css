@@ -1,0 +1,224 @@
+
+/* General Page Formatting */
+.w3-sidebar{
+	height:100%;
+	width:200px;
+	background-color:#fff;
+	position:fixed!important;
+	z-index:1;overflow:auto
+}
+
+.w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{
+	color:#000!important;
+	background-color:#f1f1f1!important
+}
+
+.w3-teal,.w3-hover-teal:hover{
+	color:#fff!important;
+	background-color:#009688!important
+}
+
+.w3-bar-block .w3-dropdown-hover,.w3-bar-block .w3-dropdown-click{
+	width:100%
+}
+.w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{
+	min-width:100%
+}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{
+	width:100%;
+	text-align:left;
+	padding:8px 16px
+}
+
+.w3-bar .w3-bar-item{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0
+}
+
+.w3-bar-block .w3-bar-item{
+	width:100%;
+	display:block;
+	padding:8px 16px;
+	text-align:left;
+	border:none;
+	white-space:normal;
+	float:none;
+	outline:0
+}
+
+.w3-bar-block.w3-center .w3-bar-item{
+	text-align:center
+}
+
+.w3-block{
+	display:block;
+	width:100%
+}
+
+.w3-container,.w3-panel{
+	padding:0.01em 16px
+}
+.w3-panel{
+	margin-top:16px;
+	margin-bottom:16px
+}
+
+/* Calendar Formatting */
+.calendar {
+	width:440px;
+	background:#fdfdfd;
+	font:28px arial; 
+	color:#644; 
+	border:2px solid #dcdcdc; 
+	border-collapse:collapse;
+}
+
+.calendar_background {
+	background:#cccccc;
+}
+
+.btn_calendar {
+	width:50px;
+}
+
+.btn_calendar:hover {
+	background: #bbbbbb;
+}
+
+.month-heading {
+	text-align:center; 
+	height:56px; 
+	line-height:56px; 
+	background:#b53934; 
+	color: #fff;
+}
+.big {font-size:120%;}
+.week-heading {
+	font-size:22px; 
+	height:40px; 
+	line-height:40px; 
+	background:#e6e7ec; 
+	text-align:center;
+}
+td {
+	width:14.2857%;
+	text-align:right;
+	padding:4px!important; 
+	border:2px solid #dcdcdc;
+}
+.other-month {color: #dcdcdc;}
+.weekend-day {background:#fafafa;}
+.today {background:#a6daf0;}
+
+
+/* Formatting for the Browse List */
+.parent_file {
+	margin: 5px;
+	font-weight: bold;
+	background-color: lightgray;
+	padding: 10px;
+	border-radius: 25px;
+	width: 50%;
+}
+
+.reply_file {
+	font-style: italic;
+	padding-left: 50px;
+	border-radius: 25px;
+	border: 1px solid;
+	border-color: Gainsboro;
+	width: 60%;
+	margin-left: 50px;
+	/*padding: 5px 5px 5px 50px; */
+}
+
+.reply_file2 {
+	font-style: italic;
+	padding-left: 50px;
+	background-color: Gainsboro;
+	border-radius: 25px;
+	width: 60%;
+	margin-left: 50px;
+}
+
+/* For login status formatting */
+.success_login_teacher{
+	color: #009688;
+	background-color: #F1F1F1;
+	font-size: 14px;
+	position: relative;
+	display:block;
+	text-align: left;
+	border-bottom: 1px solid #009688;
+	padding-left: 15px;
+}
+
+.success_login_student{
+	
+	color: white;
+	background-color: #009688;
+	font-size: 14px;
+	position: relative;
+	display:block;
+	text-align: left;
+	border-bottom: 1px solid white;
+        padding-left: 15px;
+}
+
+.fail_login{
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	background-color: red;
+}
+
+
+/* Formatting for login page */
+
+*{ 
+ box-sizing: border-box; 
+}
+
+.jit-input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.jit-icon {
+    padding: 10px;
+    background: teal;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.jit-input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.jit-input-field:focus {
+    border: 2px solid teal;
+}
+
+/* Set a style for the submit button */
+.jit-btn {
+    background-color: teal;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.jit-btn:hover {
+    opacity: 1;
+}
